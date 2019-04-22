@@ -1,3 +1,9 @@
 1. create-react-app tictactoe
 2. replace favicon by favicon.ico in exercise file ch01
 3. In src, delete all files, except index.js. And delete all module in index.js accordingly
+4. 0 yarn run eject
+4. yarn add -D balel-plugin-react-relay
+5. in webpack.config.dev.js, change cacheDirectory : true -> false
+6. in start.js, comment out clearConsole(), comment out openBrowser()
+7. in package.json, add attribute to babel "plugins : ["react-relay"]",
+   and script, change scripts, attr "start" : GRAPHQL_ENDPOINT="", do the same with "build"
