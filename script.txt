@@ -1,0 +1,3 @@
+1. create-react-app tictactoe
+2. replace favicon by favicon.ico in exercise file ch01
+3. In src, delete all files, except index.js. And delete all module in index.js accordingly
